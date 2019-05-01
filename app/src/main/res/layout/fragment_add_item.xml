@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddItemFragment">
+
+   <android.support.constraint.ConstraintLayout
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+
+       <ImageView
+           android:id="@+id/image_gallery"
+           android:layout_width="225dp"
+           android:layout_height="246dp"
+           android:layout_marginStart="93dp"
+           android:layout_marginLeft="93dp"
+           android:layout_marginEnd="93dp"
+           android:layout_marginRight="93dp"
+           android:layout_marginBottom="11dp"
+           android:src="@color/common_google_signin_btn_text_dark_default"
+           app:layout_constraintBottom_toTopOf="@+id/seleccionar_button"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent" />
+
+       <TextView
+           android:id="@+id/descripcion_label"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="31dp"
+           android:layout_marginLeft="31dp"
+           android:layout_marginEnd="249dp"
+           android:layout_marginRight="249dp"
+           android:layout_marginBottom="9dp"
+           android:text="Descripcion:"
+           android:textSize="24sp"
+           app:layout_constraintBottom_toTopOf="@+id/descripcion"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent" />
+
+       <EditText
+           android:id="@+id/descripcion"
+           android:layout_width="365dp"
+           android:layout_height="40dp"
+           android:layout_marginStart="31dp"
+           android:layout_marginLeft="31dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginRight="15dp"
+           android:layout_marginBottom="25dp"
+           android:textColor="@android:color/background_dark"
+           app:layout_constraintBottom_toTopOf="@+id/estado_label"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent" />
+
+       <RadioGroup
+           android:id="@+id/estado"
+           android:layout_width="359dp"
+           android:layout_height="43dp"
+           android:layout_marginStart="26dp"
+           android:layout_marginLeft="26dp"
+           android:layout_marginEnd="26dp"
+           android:layout_marginRight="26dp"
+           android:layout_marginBottom="36dp"
+           android:orientation="horizontal"
+           app:layout_constraintBottom_toTopOf="@+id/boton_enviar"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent">
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Opcion a" />
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Opcion b" />
+
+           <RadioButton
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Opcion c" />
+
+
+       </RadioGroup>
+
+       <TextView
+           android:id="@+id/estado_label"
+           android:layout_width="179dp"
+           android:layout_height="41dp"
+           android:layout_marginStart="31dp"
+           android:layout_marginLeft="31dp"
+           android:layout_marginEnd="201dp"
+           android:layout_marginRight="201dp"
+           android:text="Estado"
+           android:textSize="24sp"
+           app:layout_constraintBottom_toTopOf="@+id/estado"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent" />
+
+       <Button
+           android:id="@+id/boton_enviar"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="161dp"
+           android:layout_marginLeft="161dp"
+           android:layout_marginEnd="162dp"
+           android:layout_marginRight="162dp"
+           android:layout_marginBottom="33dp"
+           android:text="ENVIAR"
+           app:layout_constraintBottom_toBottomOf="parent"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent" />
+
+       <Button
+           android:id="@+id/seleccionar_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginStart="124dp"
+           android:layout_marginLeft="124dp"
+           android:layout_marginEnd="114dp"
+           android:layout_marginRight="114dp"
+           android:layout_marginBottom="15dp"
+           android:text="Seleccionar imagen"
+           app:layout_constraintBottom_toTopOf="@+id/descripcion_label"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent" />
+   </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

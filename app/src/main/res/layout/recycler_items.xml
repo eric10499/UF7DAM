@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imagen_incidencia"
+        android:layout_width="127dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descripcion_recycler"
+        android:layout_width="187dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="24dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/estado"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/estado"
+        android:layout_width="140dp"
+        android:layout_height="20dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginBottom="40dp"
+        android:text="TextView"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/cruz"
+        android:layout_width="69dp"
+        android:layout_height="65dp"
+        app:srcCompat="@drawable/cruz"
+        tools:layout_editor_absoluteX="43dp"
+        tools:layout_editor_absoluteY="26dp" />
+</android.support.constraint.ConstraintLayout>

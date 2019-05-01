@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+
+    <item android:id="@+id/pause"
+        android:title=""
+        android:icon="@drawable/pause"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/añadir_nuevo"
+        android:title=""
+        android:icon="@drawable/add"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/ver_lista"
+        android:title=""
+        android:icon="@drawable/list"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+</menu>

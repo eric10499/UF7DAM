@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "288988611760",
+    "firebase_url": "https://proyectoexamenuf2.firebaseio.com",
+    "project_id": "proyectoexamenuf2",
+    "storage_bucket": "proyectoexamenuf2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:288988611760:android:d9b61691e3db6a6e",
+        "android_client_info": {
+          "package_name": "com.example.proyectoexamenuf2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "288988611760-oqlgk2ancb88h2cr0p9g942vncs2lvph.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.proyectoexamenuf2",
+            "certificate_hash": "94ddee55e0694928b68508ae4149576e20a574ac"
+          }
+        },
+        {
+          "client_id": "288988611760-0m2utdsuun77v0dc8q8fve4qsdtj4616.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-gEyViYG24oqvYCcI1SszWChz8SfxvZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "288988611760-0m2utdsuun77v0dc8q8fve4qsdtj4616.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
